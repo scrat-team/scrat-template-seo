@@ -1,0 +1,14 @@
+{
+  "name": "<$= _.slugify(appname) $>",
+  "version": "<$= version $>",
+  "private": true,
+  "main": "server/index",
+  "dependencies": {
+    "express": "4.10.2",
+    "compression": "1.2.0",
+    "errorhandler": "1.2.2",
+    "body-parser": "1.9.2",
+    "http-proxy": "1.6.2",
+    "scrat-swig": "*"
+  }
+}
