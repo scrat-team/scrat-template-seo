@@ -2,7 +2,7 @@
 'use strict';
 
 var errorHandler = require('errorhandler'),
-    app = require('./index');
+    app = require('../index');
 
 module.exports = function () {
     var logger = app.get('logger') || console;
