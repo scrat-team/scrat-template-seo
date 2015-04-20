@@ -20,7 +20,8 @@ app.enable('trust proxy');
 
 var middleware = {
     combo: {
-        root: root + '/public'
+        root: root + '/public',
+        cache: PROD
     },
     proxy: {
         target: 'http://cors-api-host'
