@@ -15,7 +15,7 @@
         <meta name="msapplication-tap-highlight" content="no">
         <link rel="icon" href="favicon.ico" />
         {# title需要使用title标签包裹起来 #}
-        {% title %}{{title}}{% endtitle%}
+        {% title %}{{title}}{% endtitle %}
         {# 引用模块 #}
         {% require $id="../lib/pure/pure.css" %}
         {% require $id="./layout.css" %}
